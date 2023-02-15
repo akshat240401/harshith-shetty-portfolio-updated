@@ -46,7 +46,7 @@ function Testimonials() {
                     style={{ backgroundColor: theme.primary }}
                 >
                     <div className='testimonials--header'>
-                        <h1 style={{ color: theme.secondary }}>Testimonials</h1>
+                        <h1 style={{ color: theme.secondary }}>Certifications</h1>
                     </div>
                     <div className='testimonials--body'>
                         <FaQuoteLeft
@@ -67,8 +67,7 @@ function Testimonials() {
                                             <div
                                                 className='review--img'
                                                 style={{
-                                                    backgroundColor:
-                                                        theme.secondary,
+                                                    
                                                 }}
                                             >
                                                 <img
