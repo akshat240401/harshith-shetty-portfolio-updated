@@ -13,7 +13,7 @@ function SingleService({id, title, icon}) {
         <Fade bottom>
             <div key={id} className="single-service" style={{backgroundColor:theme.primary400}}>
                 <div className="service-content"  style={{color:theme.tertiary}}>
-                    <i className="service-icon">{icon}</i>
+                    <img src={icon} className="service-icon"></img>
                     <h4  style={{color:theme.tertiary}}>{title}</h4>  
                 </div>         
             </div>

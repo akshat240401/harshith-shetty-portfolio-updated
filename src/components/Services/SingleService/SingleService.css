@@ -28,15 +28,16 @@
 .service-icon {
     position: absolute;
     top: 15%;
+    height: 100%;
     /* transform: translateY(-50%); */
 }
 
-.service-icon > svg {
+.service-icon > img {
     font-size: 2.8rem;
     /* color: #000000; */
 }
 
-.single-service:hover svg{
+.single-service:hover img{
     animation: magic 0.7s ease-in-out both;
 }
 

@@ -20,7 +20,7 @@ function Landing() {
 
     const useStyles = makeStyles((t) => ({
         resumeBtn: {
-            color: theme.primary,
+            color: theme.primary400,
             borderRadius: '30px',
             textTransform: 'inherit',
             textDecoration: 'none',
@@ -29,7 +29,7 @@ function Landing() {
             fontWeight: '500',
             height: '50px',
             fontFamily: 'var(--primaryFont)',
-            border: `3px solid ${theme.primary}`,
+            border: `3px solid ${theme.primary400}`,
             transition: '100ms ease-out',
             '&:hover': {
                 backgroundColor: theme.tertiary,
@@ -41,7 +41,7 @@ function Landing() {
             },
         },
         contactBtn: {
-            backgroundColor: theme.primary,
+            backgroundColor: theme.primary400,
             color: theme.secondary,
             borderRadius: '30px',
             textTransform: 'inherit',
@@ -51,7 +51,7 @@ function Landing() {
             fontSize: '1rem',
             fontWeight: '500',
             fontFamily: 'var(--primaryFont)',
-            border: `3px solid ${theme.primary}`,
+            border: `3px solid ${theme.primary400}`,
             transition: '100ms ease-out',
             '&:hover': {
                 backgroundColor: theme.secondary,
@@ -71,7 +71,7 @@ function Landing() {
             <div className='landing--container'>
                 <div
                     className='landing--container-left'
-                    style={{ backgroundColor: theme.primary }}
+                    style={{ backgroundColor: theme.primary400 }}
                 >
                     <div className='lcl--content'>
                         {socialsData.linkedIn && (

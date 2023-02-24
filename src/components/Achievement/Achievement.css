@@ -11,14 +11,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    flex: 0.4;
+    justify-content: space-between;
+    flex: 0.5;
     width: 90%;
 }
 
 .achievement-body h1 {
     font-family: var(--primaryFont);
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -34,10 +34,13 @@
     justify-content: space-evenly;
     gap: 2.5rem;
     width: 100%;
-    height: 100%;
-    height:fit-content;
+    height: 80%;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+}
+
+hr{
+    color: white;
 }
 
 .achievement-card {
@@ -53,8 +56,6 @@
     transition: background-color 200ms ease-in-out;
     gap: 4rem;
     width: 100%;
-    flex-wrap: wrap;
-    flex: 1 1 160px;
 }
 
 .achievecard-content {
@@ -68,26 +69,29 @@
 
 .achievecard-details2 {
     display: flex;
-    flex-direction: row;
-    width: 50%;
-    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
     font-family: var(--primaryFont);
     font-size: 18px;
     position: absolute;
-    bottom: 7px;
-    left: 25px;
+    margin-bottom: -10px;
+    bottom: 15px;
+    left: 22px;
 }
 
 .achievecard-details2 h5 {
    width: 50%;
-   gap: 2rem;
+   gap: 5rem;
 }
 
 .achievecard-field {
     width: 50%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-left: 10px;
 }
 
 .achievecard-field svg {
@@ -99,7 +103,6 @@
     font-weight: 500;
     font-size: 1.225rem;
     line-height: 110%;
-    margin-bottom: 6px;
 }
 
 .achievecard-details1 p {
@@ -109,13 +112,15 @@
 }
 
 .achievecard-imgcontainer {
-    width: 20%;
+    height:100%;
+    width: 100%;
 }
 
 .achievecard-imgcontainer > img {
-    width: 150px;
-    height: max-content;
-    border-radius: 10px;
+    width: 130px;
+    height: 30%;
+    margin-left: -3em;
+    margin-top: -1em;
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
@@ -128,7 +133,7 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-evenly;
-        flex: 0.3;
+        flex: 0.33;
         width: 90%;
     }
     .achievement-body h1 {
@@ -140,10 +145,11 @@
         padding: 1rem;
         margin-left: 1%;
         width: 100%;
-        flex: 0.7;
+        flex: 0.3;
     }
     .achievecard-imgcontainer {
-       margin-left: 1rem;
+       margin-left: 10px;
+       size: 1.2rem;
     }
 
 }
@@ -206,11 +212,15 @@
         width: 30%;
         display: flex;
        justify-content: center;
+      
     }
 
     .achievecard-imgcontainer > img {
-        width: 80px;
-        height: 70px;
+        width: 130px;
+        height: 30%;
+        margin-left: -3em;
+        margin-top: -1em;
+
     }
     
 }
@@ -224,19 +234,21 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
 
     .achievement-body h4 {
-        font-size: 1.5rem;
+        font-size: 1.0rem;
     }
 
     .achievecard-details1 p {
         font-size: 0.95rem;
     }
-    .achievecard-imgcontainer > img {
-        width: 70px;
-        height: 60px;
-    }
 
+    .achievecard-imgcontainer > img {
+        width: 100px;
+        height: 20%;
+        margin-left: -3em;
+        margin-top: -1em;
+    }
 }
 

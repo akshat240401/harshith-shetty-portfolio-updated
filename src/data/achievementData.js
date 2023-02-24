@@ -3,7 +3,7 @@ export const achievementData = {
     achievements : [
         {
             id : 1,
-            title : 'AWS Certified Solutions Architect – Associate',
+            title : 'AWS Certified Solutions Architect',
             details : 'Badge owners are able to strategically design well-architected distributed systems that are scalable, resilient, efficient, and fault-tolerant.',
             date : 'December 03, 2021',
             field : 'AWS',
@@ -28,7 +28,7 @@ export const achievementData = {
         {
             id : 4,
             title : 'Google IT Automation Certificate',
-            details : 'This six-course certificate, developed by Google, is designed to provide IT professionals with in-demand skills -- including Python, Git, and IT automation -- that can help them advance their careers.',
+            details : 'This six-course certificate, developed by Google, is designed to provide IT professionals with in-demand skills including Python, Git, and IT automation.',
             date : 'August 22, 2020',
             field : 'Coursera',
             image : 'https://images.credly.com/size/680x680/images/efbdc0d6-b46e-4e3c-8cf8-2314d8a5b971/GCC_badge_python_1000x1000.png'
@@ -36,7 +36,7 @@ export const achievementData = {
         {
             id : 5,
             title : 'Google IT Support Certificate',
-            details : 'Those who earn the Google IT Support Certificate have completed five-courses, developed by Google, that include hands-on, practice-based assessments and are designed to prepare them for entry-level roles in IT support.',
+            details : 'Google IT Support Certificate include hands-on, practice-based assessments and are designed to prepare them for entry-level roles in IT support.',
             date : 'August 21, 2020',
             field : 'Coursera',
             image : 'https://images.credly.com/size/680x680/images/ae2f5bae-b110-4ea1-8e26-77cf5f76c81e/GCC_badge_IT_Support_1000x1000.png'

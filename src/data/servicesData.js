@@ -1,7 +1,7 @@
 /* eslint-disable */
 import { BiShoppingBag, BiPencil } from "react-icons/bi";
 import { BsCodeSlash, BsClipboardData } from "react-icons/bs";
-import { AiOutlineMail, AiFillAudio, AiFillAmazonCircle } from "react-icons/ai";
+import { AiOutlineMail, AiFillAudio } from "react-icons/ai";
 import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
 
  
@@ -15,7 +15,7 @@ export const servicesData = [
     {
         id: 2,
         title: 'Content Writing',
-        icon: <AiFillAmazonCircle /> 
+        icon: 'https://images.credly.com/size/680x680/images/336eebfc-0ac3-4553-9a67-b402f491f185/azure-administrator-associate-600x600.png' 
     },
     {
         id: 3,
