@@ -118,7 +118,7 @@ export const blueThemeLight = {
 export const blueThemeDark = {
     type: 'dark',
     primary: '#545fc4',
-    primary400: '#6e76c7',
+    primary400: '#1087EB',
     primary600: '#3644c9',
     primary80: '#545fc4cc',
     primary50: '#545fc480',

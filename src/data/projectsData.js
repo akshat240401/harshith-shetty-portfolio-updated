@@ -6,44 +6,46 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
+import quanta from '../assets/png/quanta_1.png'
+import sarva from '../assets/png/Sarva.png'
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
-        tags: ['React', 'CSS', 'Material Ui'],
+        projectName: 'Drug Discovery Using Quantum Computer',
+        projectDesc: 'This project aims to tackle problems of Drug Discovery which were to be faced by classical computers, innovation and advancements in computer-aided drug design (CADD)',
+        tags: ['AWS', 'DOCKER', 'QUANTUM COMPUTING'],
         code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
         demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: one
+        image: quanta
     },
     {
         id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
+        projectName: 'Automated Security Testing Into CI/CD Pipeline',
+        projectDesc: 'Created a CI/CD pipeline triggered on Pull Requests that builds and pushes a container image to an Amazon ECR repository.',
+        tags: ['AWS', 'DOCKER', 'CI/CD', 'PYTHON'],
         code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
         demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: two
+        image: 'https://d585tldpucybw.cloudfront.net/sfimages/default-source/productsimages/teststudio/continuous-integration-testing-illustration.svg'
     },
     {
         id: 3,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
+        projectName: 'Vulnerability Analysis using Serverless Cloud Operation Test',
+        projectDesc: 'The project was made to help users to carry out vulnerability tests over any website on their server without having knowledge of Kali Linux, networking or any fundamentals.',
+        tags: ['AWS', 'NoSQL', 'API', 'REACT'],
         code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
         demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: three
+        image: 'https://cdn.iconscout.com/icon/premium/png-256-thumb/website-bug-tracking-1819337-1544052.png'
     },
     {
         id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
+        projectName: 'Sarvakaraum',
+        projectDesc: 'This project was designed to understand the input as a code in one’s regional language and process it under the syntax of C/C++ and Java to display the desired output.',
         tags: ['Flutter', 'Firebase'],
         code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
         demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: four
+        image: sarva
     },
     {
         id: 5,
