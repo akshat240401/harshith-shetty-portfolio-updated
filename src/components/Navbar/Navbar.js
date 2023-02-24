@@ -37,7 +37,7 @@ function Navbar() {
             transform: 'translateY(-10px)',
             transition: 'color 0.3s',
             '&:hover': {
-                color: theme.primary,
+                color: theme.primary400,
             },
             [t.breakpoints.down('sm')]: {
                 fontSize: '2.5rem',
@@ -65,7 +65,7 @@ function Navbar() {
             fontSize: '2rem',
             fontWeight: 'bold',
             cursor: 'pointer',
-            color: theme.primary,
+            color: theme.primary400,
             position: 'absolute',
             right: 40,
             top: 40,
@@ -82,7 +82,7 @@ function Navbar() {
             margin: '2rem auto',
             borderRadius: '78.8418px',
             background: theme.secondary,
-            color: theme.primary,
+            color: theme.primary400,
             width: '85%',
             height: '60px',
             display: 'flex',
@@ -91,10 +91,10 @@ function Navbar() {
             padding: '0 30px',
             boxSizing: 'border-box',
             border: '2px solid',
-            borderColor: theme.primary,
+            borderColor: theme.primary400,
             transition: 'background-color 0.2s, color 0.2s',
             '&:hover': {
-                background: theme.primary,
+                background: theme.tertiary,
                 color: theme.secondary,
             },
             [t.breakpoints.down('sm')]: {

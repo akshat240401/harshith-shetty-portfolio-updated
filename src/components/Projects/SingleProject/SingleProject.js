@@ -20,7 +20,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
             transition: 'all 0.2s',
             '&:hover': {
                 backgroundColor: theme.secondary,
-                color: theme.primary,
+                color: theme.primary400,
                 transform: 'scale(1.1)',
                 border: `2px solid ${theme.secondary}`,
             },

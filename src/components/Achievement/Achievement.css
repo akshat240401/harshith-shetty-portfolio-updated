@@ -64,12 +64,13 @@ hr{
     align-items: flex-start;
     justify-content: space-around;
     width: 65%;
+    color: #fff;
    
 }
 
 .achievecard-details2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     align-items: flex-start;
     font-family: var(--primaryFont);
@@ -78,11 +79,13 @@ hr{
     margin-bottom: -10px;
     bottom: 15px;
     left: 22px;
+    color: #fff;
 }
 
 .achievecard-details2 h5 {
    width: 50%;
    gap: 5rem;
+   color: #fff;
 }
 
 .achievecard-field {
@@ -92,6 +95,7 @@ hr{
     flex-wrap: wrap;
     align-items: flex-end;
     margin-left: 10px;
+    color: #fff;
 }
 
 .achievecard-field svg {

@@ -13,13 +13,13 @@ function Skills() {
 
     const skillBoxStyle = {
         backgroundColor: theme.secondary,
-        boxShadow: `0px 0px 30px ${theme.primary30}`
+        boxShadow: `0px 0px 30px ${theme.primary400}`
     }
 
     return (
         <div className="skills" id="skills" style={{backgroundColor: theme.secondary}}>
             <div className="skillsHeader">
-                <h2 style={{color: theme.primary}}>Skills</h2>
+                <h2 style={{color: theme.primary400}}>Skills</h2>
             </div>
             <div className="skillsContainer">
                 <div className="skill--scroll">
@@ -35,9 +35,9 @@ function Skills() {
                         {skillsData.map((skill, id) => (
                             <div className="skill--box" key={id} style={skillBoxStyle}>
                                 <img src={skillsImage(skill)} alt={skill} />
-                                <h3 style={{color: theme.tertiary}}>
+                                <h2 style={{color: theme.tertiary}}>
                                     {skill}
-                                </h3>
+                                </h2>
                             </div>
                         ))}
                     </Marquee>

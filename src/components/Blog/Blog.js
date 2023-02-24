@@ -16,10 +16,10 @@ function Blog() {
     const useStyles = makeStyles(() => ({
         viewAllBtn : {
             color: theme.tertiary, 
-            backgroundColor: theme.primary,
+            backgroundColor: theme.primary400,
             "&:hover": {
                 color: theme.secondary, 
-                backgroundColor: theme.primary,
+                backgroundColor: theme.primary400,
             }
         },
         viewArr : {
@@ -45,7 +45,7 @@ function Blog() {
             {blogData.length > 0 && (
                 <div className="blog" id="blog" style={{backgroundColor: theme.secondary}}>
                     <div className="blog--header">
-                        <h1 style={{color: theme.primary}}>Blog</h1>
+                        <h1 style={{color: theme.primary400}}>Blog</h1>
                     </div>
                     <div className="blog--body">
                         <div className="blog--bodyContainer">

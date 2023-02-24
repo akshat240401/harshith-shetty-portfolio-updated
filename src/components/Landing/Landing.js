@@ -129,7 +129,7 @@ function Landing() {
                     </div>
                 </div>
                 <img
-                    src="https://avatars.githubusercontent.com/u/56068877?v=4"
+                    src="https://i.ibb.co/bRhgf26/image.png"
                     alt=''
                     className='landing--img'
                     style={{
