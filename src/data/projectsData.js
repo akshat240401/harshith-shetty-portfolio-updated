@@ -1,13 +1,6 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
 import quanta from '../assets/png/quanta_1.png'
-import sarva from '../assets/png/Sarva.png'
+import sarvakaraum from '../assets/png/Sarva.png'
+import vascot from '../assets/png/vascot.png'
 
 
 export const projectsData = [
@@ -16,8 +9,8 @@ export const projectsData = [
         projectName: 'Drug Discovery Using Quantum Computer',
         projectDesc: 'This project aims to tackle problems of Drug Discovery which were to be faced by classical computers, innovation and advancements in computer-aided drug design (CADD)',
         tags: ['AWS', 'DOCKER', 'QUANTUM COMPUTING'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'https://github.com/Harshith-Shetty?tab=repositories',
+        demo: 'https://github.com/Harshith-Shetty?tab=repositories',
         image: quanta
     },
     {
@@ -25,27 +18,27 @@ export const projectsData = [
         projectName: 'Automated Security Testing Into CI/CD Pipeline',
         projectDesc: 'Created a CI/CD pipeline triggered on Pull Requests that builds and pushes a container image to an Amazon ECR repository.',
         tags: ['AWS', 'DOCKER', 'CI/CD', 'PYTHON'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'https://github.com/Harshith-Shetty?tab=repositories',
+        demo: 'https://github.com/Harshith-Shetty?tab=repositories',
         image: 'https://d585tldpucybw.cloudfront.net/sfimages/default-source/productsimages/teststudio/continuous-integration-testing-illustration.svg'
     },
     {
         id: 3,
-        projectName: 'Vulnerability Analysis using Serverless Cloud Operation Test',
+        projectName: 'Vulnerability Analysis using Serverless Computing',
         projectDesc: 'The project was made to help users to carry out vulnerability tests over any website on their server without having knowledge of Kali Linux, networking or any fundamentals.',
         tags: ['AWS', 'NoSQL', 'API', 'REACT'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: 'https://cdn.iconscout.com/icon/premium/png-256-thumb/website-bug-tracking-1819337-1544052.png'
+        code: 'https://github.com/Harshith-Shetty?tab=repositories',
+        demo: 'https://github.com/Harshith-Shetty?tab=repositories',
+        image: vascot
     },
     {
         id: 4,
-        projectName: 'Sarvakaraum',
+        projectName: 'Regional Language Compiler : Sarvakaraum',
         projectDesc: 'This project was designed to understand the input as a code in one’s regional language and process it under the syntax of C/C++ and Java to display the desired output.',
         tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: sarva
+        code: 'https://github.com/Harshith-Shetty?tab=repositories',
+        demo: 'https://github.com/Harshith-Shetty?tab=repositories',
+        image: sarvakaraum
     },
     
 ]

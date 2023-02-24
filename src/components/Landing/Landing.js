@@ -13,6 +13,15 @@ import {
     FaLinkedin,
     FaGithub,
     FaBlogger,
+    FaMedium,
+    FaMediumM,
+    FaBookDead,
+    FaBook,
+    FaPagelines,
+    FaPage4,
+    FaPaperclip,
+    FaBlog,
+    FaBloggerB,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -119,7 +128,7 @@ function Landing() {
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaBlogger
+                                <FaMedium
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='Blogger'

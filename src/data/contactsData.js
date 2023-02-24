@@ -1,6 +1,6 @@
 export const contactsData = {
-    email: 'harshith.shetty@sakec.ac.in',
-    phone: '+91 98237 81701',
+    email: 'harshithdshetty@gmail.com',
+    phone: '+91 9823781701',
     address: 'Mumbai, India',
 
     sheetAPI: ''
